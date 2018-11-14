@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="SkyBlue">
+<center>
+Welcome to Registration Page<br><br><br><br>
+<form action="SignUpUser.jsp" method=post>  
+User name&nbsp
+<input type="text" name="username"><br><br>
+Email-One&nbsp
+<input type="text" name="email1"><br><br>
+Email-Two&nbsp
+<input type="text" name="email2"><br><br>
+Last Name&nbsp
+<input type="text" name="lastname"><br><br>
+First name&nbsp
+<input type="text" name="firstname"><br><br>
+Password&nbsp
+<input type="text" name="password"><br><br>
+StreetNumber&nbsp
+<input type="text" name="streetNo"><br><br>
+StreetName&nbsp
+<input type="text" name="streetName"><br><br>
+Major Municipality&nbsp
+<input type="text" name="municipality"><br><br>
+District&nbsp
+<input type="text" name="district"><br><br>
+Something About You&nbsp
+<input type="text" name="aboutYou"><br><br>
+Postal Area&nbsp
+<input type="text" name="postal"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<br><br>
+<form  method="post" action="FileUpload" enctype="multipart/form-data">
+            <label for="photo"> Portrait Photo:  </label>
+            <input type="file" name="photo" size="50" placeholder="Upload Your Image" required/><br><br>
+            <input type="submit" value="Save">
+        </form>
+
+</center>
+</body>
+</html>
